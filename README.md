@@ -27,6 +27,10 @@ while success:
     sec = round(sec, 2)
     success = getFrame(sec)
 ```
+No run the script
+
+`` python convert.py`` 
+
 Thde images will save in the ``./images/`` direcotry
 
 
@@ -59,6 +63,10 @@ for i in range(len(frame_array)):
     out.write(frame_array[i])
 out.release()
 ```
+Now run the script
+
+`` python imgtovideo.py``
+
 Thde out put video will save in the ``./videos/`` direcotry
 
 
